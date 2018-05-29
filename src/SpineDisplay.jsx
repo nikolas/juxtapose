@@ -89,8 +89,7 @@ export default class SpineDisplay extends BasePlayer {
                     onProgress={this.props.onProgress}
                     onPlay={this.props.onPlay}
                     onPause={this.props.onPause}
-                    youtubeConfig={this.youtubeConfig}
-                    vimeoConfig={this.vimeoConfig}
+                    config={this.config}
                 />
                 {spineControls}
         </div>;
